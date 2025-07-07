@@ -74,11 +74,11 @@ if submitted:
     elif score >= 90:
         status = "Qualificado"
         st.success("🎉 Parabéns! Você foi qualificado para a oferta do Guardian com Calibragem Ao Vivo!")
-        st.markdown("[💬 Entrar no Grupo dos Qualificados](https://wa.me/SEUNUMEROQUALIFICADO)")
+        st.markdown("[💬 Entrar no Grupo dos Qualificados](https://https://chat.whatsapp.com/HCbhFkHTmsbF08v8ZPxQRD)")
     elif score >= 85:
         status = "Pré-qualificado (avaliação coach)"
         st.warning("⚠️ Você está pré-qualificado e passará por uma avaliação final e decisão da Cissa Grilli.")
-        st.markdown("[📅 Falar com a Coach (Pré-qualificados)](https://wa.me/SEUNUMEROPREQUALIFICADO)")
+        st.markdown("[📅 Falar com a Coach (Pré-qualificados)](https://https://chat.whatsapp.com/DGYA0RV4B1BCRMUAAqRY57)")
     else:
         status = "Não qualificado (pontuação baixa)"
         st.warning("⚠️ Você não atingiu a pontuação mínima para receber a oferta principal.")
